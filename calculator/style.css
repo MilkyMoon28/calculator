@@ -1,0 +1,36 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.calculator {
+    width: 100%;
+    max-width: 540px;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+div.output {
+    width: 70%;
+    background-color: #ddd;
+    font-size: 32px;
+    color: #333;
+    text-align: right;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn {
+    width: 22%;
+    font-size: 20px;
+    text-align: center;
+    padding: 5% 0px;
+    margin: 1.5%;
+    float: left;
+    border: 1px solid black;
+}
+
+div.btn:hover {
+    background: rgba(0, 0, 0, 0.685);
+    color: white;
+}
